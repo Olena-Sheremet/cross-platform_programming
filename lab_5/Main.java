@@ -2,27 +2,24 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-//        List<Integer> arr=new ArrayList<>();
-//        Random rnd = new Random();
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        arr.add( rnd.nextInt(10));
-//        System.out.println(" List : " + arr);
-//        metod1(arr); //вивід List з N позтції
-//        metod2(arr,3,5); //Підмножина з firstIndex по lastIndex включно
-//        metod3();//додання  заданого елементу в задану позицію (LinkedList).
-//        metod4();  //значення елементу та його позицію в LinkedList
-//        metod5(arr);// пошук дублікатів в колекції List
-//        metod6();//метод, який з вхідного речення робить Map, де ключ - символ, а значення к-ть входження цього символу в речення.
+       List<Integer> arr=new ArrayList<>();
+       Random rnd = new Random();
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       arr.add( rnd.nextInt(10));
+       System.out.println(" List : " + arr);
+       metod1(arr); //вивід List з N позтції
+       metod2(arr,3,5); //Підмножина з firstIndex по lastIndex включно
+       metod3();//додання  заданого елементу в задану позицію (LinkedList).
+       metod4();  //значення елементу та його позицію в LinkedList
+       metod5(arr);// пошук дублікатів в колекції List
+       metod6();//метод, який з вхідного речення робить Map, де ключ - символ, а значення к-ть входження цього символу в речення.
        
     }
-
-
-
 
 
     private static void metod6() {
